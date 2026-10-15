@@ -1,0 +1,104 @@
+
+body{
+    background: yellow ;
+    font-family: Verdana, Arial, sans-serif; font-size: 1em;
+    font-family: "Times New Roman", serif;
+}
+
+div {
+    background-color: #f0f0f0;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav {
+    padding: 5px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 auto;
+    padding: 15px;
+}
+
+h1 {
+    color: #166a93;
+}
+
+h1,h3 {
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+p,li {
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;    
+}
+
+hr {
+    background-color: black;
+    height: 2px;
+    width: 98%;
+}
+
+#imatges {
+    padding:0%;
+}
+
+#f,#x{
+    width: 15px;
+}
+
+#header {
+    display: flex;
+    margin: 0 auto;
+}
+
+#gris {
+    padding: 17px;
+    width: 98%;
+    background-color: gray;
+}
+
+a:link, a:visited {
+    color: rgb(209, 160, 0);
+    padding: 17px;
+    text-decoration: none;
+}
+
+p a:link, p a:visited {
+    color: rgb(209, 160, 0);
+    padding: 3px;
+}
+
+a:hover{
+    color: black;
+    text-decoration:underline;
+}
+
+#footer {
+    width: 99%;
+    background-color: purple;
+
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+}
+
+#header {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+#imag {
+    width: 15px;
+}
+
+
+
