@@ -1,8 +1,27 @@
 
+/* ------------------------------ BASE ----------------------------------- */
+
 body{
     background: yellow ;
     font-family: Verdana, Arial, sans-serif; font-size: 1em;
     font-family: "Times New Roman", serif;
+}
+
+h1 {
+    color: #166a93;
+}
+
+h1,h3 {
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+p,li,dl {
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;    
 }
 
 div {
@@ -23,29 +42,6 @@ nav a {
     padding: 15px;
 }
 
-h1 {
-    color: #166a93;
-}
-
-h1,h3 {
-    width: 97%;
-    margin-left: auto;
-    margin-right: auto;  
-}
-
-p,li {
-    width: 97%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: justify;    
-}
-
-hr {
-    background-color: black;
-    height: 2px;
-    width: 98%;
-}
-
 #imatges {
     padding:0%;
 }
@@ -55,6 +51,9 @@ hr {
 }
 
 #header {
+    width: 25%;
+    display: flex;
+    justify-content: center;
     display: flex;
     margin: 0 auto;
 }
@@ -63,22 +62,6 @@ hr {
     padding: 17px;
     width: 98%;
     background-color: gray;
-}
-
-a:link, a:visited {
-    color: rgb(209, 160, 0);
-    padding: 17px;
-    text-decoration: none;
-}
-
-p a:link, p a:visited {
-    color: rgb(209, 160, 0);
-    padding: 3px;
-}
-
-a:hover{
-    color: black;
-    text-decoration:underline;
 }
 
 #footer {
@@ -90,15 +73,100 @@ a:hover{
     gap: 30px; 
 }
 
-#header {
-    width: 25%;
-    display: flex;
-    justify-content: center;
+/* ------------------------------ LINKS ----------------------------------- */
+
+a:link, a:visited {
+    color: rgb(209, 160, 0);
+    text-decoration: none;
+}
+
+p a:link, p a:visited {
+    color: rgb(209, 160, 0);
+    padding: 3px;
+}
+
+dl a:hover{
+    color:white;
+}
+
+a:hover{
+    color: black;
+    text-decoration:underline;
+}
+
+/* ------------------------------ PAGINA HISTORIA ----------------------------------- */
+
+hr {
+    background-color: black;
+    height: 2px;
+    width: 98%;
 }
 
 #imag {
     width: 15px;
 }
 
+#wiki {
+    padding: 17px;
+}
 
 
+/* ------------------------------ PAGINA ARCS ----------------------------------- */
+
+#arcs {
+    width: 20%;
+}
+
+#flexbox li {
+    color: #2A9C6C;
+    font-weight: bold;
+    align-items: center;
+    list-style-image: url("../img/icono-cine.png");  
+}
+
+#flexbox ol li {
+    color: black;
+    font-weight: normal;
+    list-style-image:none; 
+}
+
+#flexbox {
+    display: flex;
+    align-content: stretch;
+}
+
+#flexbox img {
+    width: 800px; /*  optimo 590 - pedido por la actividad 800 */
+    height: 650px; /*  optimo 475 - pedido por la actividad 650 */
+    padding: 10px;
+}
+
+/* ------------------------------ PAGINA PERSONATGES ----------------------------------- */
+
+dt {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+dl img {
+    width: 100px;
+    height: 150px;    
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.pj {
+    text-align: center;
+}
+
+#personatges li {
+    list-style-type: circle;
+}
+
+.boto {
+    text-align: center;
+    background-color: gray;
+    padding: 7px;
+    width: 100px;
+}
